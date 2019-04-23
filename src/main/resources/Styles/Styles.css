@@ -1,5 +1,9 @@
+
 .root{
-    -fx-font: 12px Lato;
+    -fx-font-family: "Calibre Medium";
+}
+.custom-Text{
+    -fx-font: 25px "Calibre Medium";
 }
 .anchor-pane{
     -fx-background-color: white;

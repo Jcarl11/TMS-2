@@ -60,5 +60,6 @@
          </children>
       </AnchorPane>
       <JFXProgressBar fx:id="syncCloudProgressBar" layoutX="1055.0" layoutY="738.0" prefHeight="8.0" prefWidth="138.0" />
+      <Button fx:id="dashboard_logout" layoutX="932.0" layoutY="751.0" mnemonicParsing="false" onAction="#logoutClicked" prefHeight="31.0" prefWidth="106.0" text="Logout" />
    </children>
 </AnchorPane>
