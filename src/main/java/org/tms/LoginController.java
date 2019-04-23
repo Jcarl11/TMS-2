@@ -22,6 +22,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import org.asynchttpclient.Response;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -128,6 +129,8 @@ public class LoginController implements Initializable {
 
     @FXML
     private void registerClicked(ActionEvent event) {
+        GlobalObjects.getInstance().openNewWindow("Register.fxml", "Register", StageStyle.DECORATED);
+        ((Stage) login_register.getScene().getWindow()).close();
     }
     
     private boolean validateField(JFXTextField field){
