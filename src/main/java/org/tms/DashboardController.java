@@ -210,6 +210,50 @@ public class DashboardController {
     private CheckBox interruptedCheckBox1;
     @FXML
     private Button dashboard_logout;
+    @FXML
+    private TextField filePathTextField2;
+    @FXML
+    private ImageView videoContainerImageView2;
+    @FXML
+    private TextField quantityTextField2;
+    @FXML
+    private TextField avgSpeedTextField2;
+    @FXML
+    private Button playPauseButton2;
+    @FXML
+    private Button resetButton2;
+    @FXML
+    private Button chooseFileButton2;
+    @FXML
+    private TextField areaTextField2;
+    @FXML
+    private Button counterLineButton2;
+    @FXML
+    private Button speedLineButton2;
+    @FXML
+    private CheckBox interruptedCheckBox2;
+    @FXML
+    private TextField filePathTextField3;
+    @FXML
+    private ImageView videoContainerImageView3;
+    @FXML
+    private TextField quantityTextField3;
+    @FXML
+    private TextField avgSpeedTextField3;
+    @FXML
+    private Button playPauseButton3;
+    @FXML
+    private Button resetButton3;
+    @FXML
+    private Button chooseFileButton3;
+    @FXML
+    private TextField areaTextField3;
+    @FXML
+    private Button counterLineButton3;
+    @FXML
+    private Button speedLineButton3;
+    @FXML
+    private CheckBox interruptedCheckBox3;
 
 	
     public void initialize() {
@@ -676,6 +720,46 @@ public class DashboardController {
 
             }
         });
+    }
+
+    @FXML
+    private void handlePlayPauseButtonAction2(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleResetButtonAction2(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleChooseFileButtonAction2(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleCounterLineButtonAction2(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleSpeedLineButtonAction2(ActionEvent event) {
+    }
+
+    @FXML
+    private void handlePlayPauseButtonAction3(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleResetButtonAction3(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleChooseFileButtonAction3(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleCounterLineButtonAction3(ActionEvent event) {
+    }
+
+    @FXML
+    private void handleSpeedLineButtonAction3(ActionEvent event) {
     }
     
     public class Loop implements Runnable {
